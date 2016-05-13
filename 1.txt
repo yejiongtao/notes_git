@@ -1,0 +1,39 @@
+1. terminology
+	repository  --a git project, containing the complete history of the project
+	commit  --snapshot of project content, including:
+		a project content snapshot, called a tree
+			A structure of nested files and directories representing a complete state of the project
+		the author identification
+		the committer identification
+		a commit message
+			Text used to comment on the changes made by this commit
+		a list of zero or more parent commits
+	branches
+		the latest commit of a branch is called the "tip" of the branch
+		The branch itself is defined as the collection of all commits in the graph that are reachable from the tip by following the parent arrows backward along the history
+		branches can overlap
+		usually the branch containing the main line of development is called "master" branch
+	sharing work
+		when working alone, commit early and often, so you can explore different ideas and make changes freely
+		but when you're going to share your work with others, 
+			you may want to reorganize those commits, to make them well-factored with regard to reusability of the changes being made, and to give them meaningful, well-written commit messages
+		pull  --pull changes from remote repositary
+		push  --push changes to remote repositary
+		clone  --get a full copy of the existing repository to work on
+		remote-tracking branch
+			containing the state of the remote repository on your latest pull
+
+2. objects
+	blob
+		every version of a file in Git is represented as a whole data chunk, blob
+		some other version control system may represent a version of a file as diffences from the former version
+	tree
+	commit
+	tag
+
+
+
+
+
+
+
